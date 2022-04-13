@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Customer Details</legend>
+        <div>
+          <label for="First-Name">First Name </label>
+          <input id="First-Name" type="text" placeholder="George" autofocus />
+        </div>
+        <div>
+          <label for="Last-Name"> Last Name </label>
+          <input id="Last-Name" type="text" placeholder="Devis" />
+        </div>
+        <div>
+          <label for="male">Male</label>
+          <input id="male" name="gender" type="radio" />
+          <label for="female">Female</label>
+          <input id="female" name="gender" type="radio" />
+          <label for="other">Other</label>
+          <input id="other" name="gender" type="radio" />
+        </div>
+        <div>
+          <label for="">Preferred contact method: Email</label>
+          <input name="contact" type="radio" />
+          <label for="">Phone</label>
+          <input name="contact" type="radio" />
+        </div>
+        <div>
+          <label for="">Email</label>
+          <input type="email" placeholder="your@email.com" />
+        </div>
+        <div>
+          <label for="">Phone</label>
+          <input type="text" placeholder="+359885236225" />
+        </div>
+        <div>
+          <label for="Town">Town</label>
+          <select name="Town" id="Town">
+            <option value="Varna">Varna</option>
+            <option value="Pleven">Pleven</option>
+            <option value="Plovdiv">Plovdiv</option>
+            <option value="Sofia">Sofia</option>
+            <option value="Burgas">Burgas</option>
+          </select>
+        </div>
+        <div>
+          <label for="">Age</label>
+          <input type="number" min="18" max="70" />
+        </div>
+        <div>
+          <label for="language">Programming language</label>
+          <input list="language" name="language" id="language" />
+          <datalist id="language">
+            <option value="Java">Java</option>
+            <option value="PHP">PHP</option>
+            <option value="C#">C#</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Other">Other</option>
+          </datalist>
+        </div>
+        <div>
+          <label for="info"></label>
+          <textarea
+            name="information"
+            id="info"
+            cols="20"
+            rows="5"
+            placeholder="More information..."
+          ></textarea>
+        </div>
+        <div>
+          <input type="checkbox" />
+          <label for="">I agree the Terms and Conditions</label>
+        </div>
+        <div>
+          <input type="submit" value="Send" />
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
+
+<!-- •	Change the document title to "Forms"
+•	Use a form tag
+•	Use a fieldset tag with legend - "Customer Details"
+•	Each input tag should have a label and should be inside a div
+o	The first input field must be focused
+o	The 3rd and the 4th input rows should be of type="radio"
+o	The 5th input tag should be of type="email" 
+o	The 7th label should have select tag and option tags with the city name values
+o	The 8th label should have input tag with type="number" (with min value - 18 and max value - 70)
+o	The 9th label should have datalist tag and option tags with the languages type value
+o	The 10th label should have textarea tag with 5 rows and 20 columns
+o	The 11th label should have input tag with type="checkbox" that is checked
+o	The 12th label should have input tag with type="submit" 
+•	The placeholders are obligatory -->
