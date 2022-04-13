@@ -1,0 +1,42 @@
+table {
+  border: 1px solid #cccccc;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+tr,
+td {
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid #cccccc;
+}
+
+td {
+  border: 1px solid #cccccc;
+}
+
+th {
+  background: #cccccc;
+}
+
+thead {
+  background-color: #cccccc;
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f1f1f1;
+}
+
+tbody tr:nth-child(even) {
+  background: white;
+}
+
+tbody tr:hover {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+}
