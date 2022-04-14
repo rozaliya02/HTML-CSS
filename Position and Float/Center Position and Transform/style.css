@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  background: rgb(238, 238, 238);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px 0px black;
+}
+
+img {
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  background: rgb(0, 153, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+h1,
+h2 h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cart-text {
+  padding: 30px;
+  text-align: right;
+}
+
+.cart-text p {
+  text-align: left;
+}
+
+h3 {
+  text-align: left;
+}
