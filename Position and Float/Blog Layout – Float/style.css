@@ -1,0 +1,57 @@
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 60px 80px;
+  background: #eeeeee;
+}
+
+.header-title {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+.first-photo {
+  border: 5px solid black;
+  padding: 5px;
+  float: right;
+  margin: 10px;
+}
+
+blockquote {
+  border-left: 3px solid #dddddd;
+  padding: 20px;
+  float: right;
+  width: 40%;
+  font-family: Georgia, serif;
+}
+
+blockquote p {
+  padding-left: 310px;
+}
+
+.second-photo {
+  border: 5px solid black;
+  padding: 5px;
+  float: left;
+  margin-right: 20px;
+}
+
+main {
+  width: 70%;
+  float: left;
+}
+aside {
+  float: right;
+  vertical-align: top;
+  width: 28%;
+}
+
+aside a {
+  color: #63913c;
+  text-decoration: none;
+}
