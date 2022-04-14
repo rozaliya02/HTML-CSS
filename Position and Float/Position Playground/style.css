@@ -1,0 +1,43 @@
+.card {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+body {
+  margin: 0;
+}
+
+.viewpoint {
+  background: linear-gradient(
+    90deg,
+    rgba(24, 92, 157, 1) 0%,
+    rgba(45, 148, 159, 1) 57%,
+    rgba(66, 203, 161, 1) 100%
+  );
+  height: 100vw;
+  position: relative;
+}
+
+.viewpointTwo {
+  background: linear-gradient(
+    90deg,
+    rgba(168, 50, 120, 1) 0%,
+    rgba(188, 88, 69, 1) 57%,
+    rgba(210, 130, 18, 1) 100%
+  );
+  height: 100vw;
+  position: relative;
+}
+
+
+i{
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 20px;
+}
+}
