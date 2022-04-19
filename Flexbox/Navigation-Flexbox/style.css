@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+}
+
+header {
+  display: flex;
+  border-bottom: 2px solid black;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  color: rgb(0, 153, 0);
+  display: flex;
+}
+
+li {
+  padding: 20px;
+}
