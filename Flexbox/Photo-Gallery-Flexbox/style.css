@@ -1,0 +1,26 @@
+body,
+ul,
+li {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  border: 5px solid black;
+  margin: 15px;
+  background: white;
+  padding: 22px;
+  align-items: center;
+}
+
+body {
+  background: #eeeeee;
+}
+
+.gallery {
+  margin: 70px;
+}
+
+ul {
+  flex-wrap: wrap;
+}
