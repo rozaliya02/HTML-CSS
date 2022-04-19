@@ -1,0 +1,39 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+body {
+  margin: 0px;
+  background: rgb(238, 238, 238);
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  max-width: 65vw;
+  min-height: 350px;
+}
+
+.container article {
+  display: flex;
+  margin: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 12px black;
+}
+
+.container article {
+  flex-shrink: 3;
+  margin: 10px;
+}
+
+.container article:nth-child(2) {
+  flex-shrink: 1;
+}
