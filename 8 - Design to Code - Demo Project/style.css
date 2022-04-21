@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 0px 5px;
+}
+
+header nav ul li .btn {
+  text-decoration: none;
+  border: 1px solid #9a5dc5;
+  border-radius: 15px;
+  padding: 0px 12px;
+  text-align: center;
+  background: #9a5dc5;
+  color: white;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+header nav {
+  box-shadow: 0 4px 2px -2px gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+  align-items: center;
+  background: white;
+}
+
+section .info h2 {
+  font-weight: 600;
+  color: #8c8c9d;
+}
+
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px;
+}
+
+.info {
+  margin-right: 20px;
+}
+
+.hided-info {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.p-info {
+  margin-bottom: 40px;
+}
+
+.diploma {
+  position: relative;
+}
+
+.diploma:before {
+  content: "";
+  background: #54546d;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  border-radius: 500%;
+  z-index: -2;
+  top: -265px;
+}
+
+.diploma::after {
+  content: "";
+  background: url(./images/award.svg);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  background-position: top;
+  top: -100px;
+  left: 175px;
+  background-repeat: no-repeat;
+}
+.main-info {
+  display: flex;
+  background: #14162b;
+  color: white;
+  padding: 40px 80px;
+  align-items: center;
+}
+section .certificate-content h2 {
+  font-weight: 600;
+}
+
+.certificate-content {
+  margin-right: 30px;
+}
+
+.certificates img {
+  position: relative;
+  top: 75px;
+  box-shadow: 3px 0px 20px 0px black;
+}
+
+.career-center {
+  display: flex;
+  padding: 50px 80px;
+}
+
+.career-center-info h2 {
+  font-weight: 600;
+  color: #8c8c9d;
+}
+
+.career-center-info {
+  margin-left: 40px;
+}
+
+.career-center-info .button {
+  border: 2px solid #9a5dc5;
+  border-radius: 20px;
+  color: #9a5dc5;
+  padding: 8px 18px;
+  color: #9a5dc5;
+  background: white;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.career-center-info p {
+  margin-bottom: 40px;
+}
+
+footer {
+  background: #2c2c3a;
+  color: white;
+  display: flex;
+  padding: 30px 80px;
+  justify-content: space-between;
+  line-height: 1.7;
+}
+
+footer article h3 {
+  color: #9a5dc5;
+  font-weight: 600;
+}
+
+.footer-menu-nav-item {
+  list-style: none;
+}
+
+ul.footer-menu-nav {
+  padding: 0px;
+}
+
+.social-media i {
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 30px;
+}
